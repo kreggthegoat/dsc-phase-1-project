@@ -1,20 +1,16 @@
-# Phase 1 Project
+# Phase 1 Project: Movie Data Analysis
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
-
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+Author: Kregg Jackson
 
 ## Project Overview
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+For this project I used exploratory data analysis to generate insights for a business stakeholder.
 
-### Business Problem
+## Business Problem
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. I am charged with exploring what types of films are currently doing the best at the box office. 
 
-### The Data
+## The Data
 
 In the folder `zippedData` are movie datasets from:
 
@@ -24,42 +20,42 @@ In the folder `zippedData` are movie datasets from:
 * [TheMovieDB](https://www.themoviedb.org/)
 * [The Numbers](https://www.the-numbers.com/)
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+## Methods
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+I used descriptive analysis while testing and examining the data. The tests showed the best release window by determining what time of the year movies tend to sell the best. Then I tested the correlation of production budgets and global gross to see if a larger budget increases the likelihood of a high grossing film. I also grouped together data frames in order to find the studios that make the most per movie.
 
-## Deliverables
+## Results
 
-There are three deliverables for this project:
+### Task 1: Find when highest selling movies are released.
+![](linegraph.png)
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+According to the peaks in sales in December, November, and June it can be derived that these months are the best time for movie sales. 
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+### Task 2: Find how much the budget is related to gross.
+![](scatterplot.png)
 
-### Key Points
+The scatterplot shows a positive correlation between budget and global gross. I advise the more you invest in the film budget the higher chance of a high grossing film.
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+### Task 3: Find the most effective film studios.
+![](studiograph.png)
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+These are the 20 studios who made the most per film. If this is the company's first time producing a movie I would recommend collaborating with one of the studios who have shown an ability to produce high earning films.
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+## Conclusions
 
-## Getting Started
+The projects results led to these suggestions for releasing a successful movie.
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
+* December, November, and June are the best months for movie sales
+* Worldwide gross and movie budget are positively correlated and a higher budget often translates in a higher grossing movie
+* The studios who gross the most per film might be a valuable partner in a movie collaboration
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
 
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
+### Next Steps
 
-## Project Submission and Review
+Additional analysis could provide further insights into how to improve likelihood of box office success.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+* Could help to add more movie data. I am assuming the studio is willing to invest heavily in their debut film so more data on high grossing films could help pinpoint characteristics of successful films.
+* Add more genre data because there is only one genre column. More genre information could help lead to detailed characteristics of the best selling genres.
+* With more time the ratings data could be further analyzed. Analysts could calculate how much ratings correlate with profit and find what factors lead to a high ratd movie.
 
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+## Thank you
