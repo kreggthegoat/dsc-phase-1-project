@@ -59,6 +59,6 @@ Additional analysis could provide further insights into how to improve likelihoo
 * With more time the ratings data could be further analyzed. Analysts could calculate how much ratings correlate with profit and find what factors lead to a high rated movie.
 
 ## For More Information
-See the full analysis in the ![Jupyter Notebook](https://github.com/kreggthegoat/dsc-phase-1-project/blob/master/student.ipynb) or review this ![presentation](https://docs.google.com/presentation/d/1Jxtx3qvEq3NeAXZVPLzfDYQ962m-yy5PtHfMnq8Qr44/edit?usp=sharing). 
+See the full analysis in the [Jupyter Notebook](https://github.com/kreggthegoat/dsc-phase-1-project/blob/master/student.ipynb) or review this [presentation](https://docs.google.com/presentation/d/1Jxtx3qvEq3NeAXZVPLzfDYQ962m-yy5PtHfMnq8Qr44/edit?usp=sharing). 
 
 ## Thank you
