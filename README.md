@@ -56,6 +56,9 @@ Additional analysis could provide further insights into how to improve likelihoo
 
 * Could help to add more movie data. I am assuming the studio is willing to invest heavily in their debut film so more data on high grossing films could help pinpoint characteristics of successful films.
 * Add more genre data because there is only one genre column. More genre information could help lead to detailed characteristics of the best selling genres.
-* With more time the ratings data could be further analyzed. Analysts could calculate how much ratings correlate with profit and find what factors lead to a high ratd movie.
+* With more time the ratings data could be further analyzed. Analysts could calculate how much ratings correlate with profit and find what factors lead to a high rated movie.
+
+## For More Information
+See the full analysis in the ![Jupyter Notebook](https://github.com/kreggthegoat/dsc-phase-1-project/blob/master/student.ipynb) or review this ![presentation](https://docs.google.com/presentation/d/1Jxtx3qvEq3NeAXZVPLzfDYQ962m-yy5PtHfMnq8Qr44/edit?usp=sharing). 
 
 ## Thank you
